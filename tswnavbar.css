@@ -36,10 +36,10 @@
 }
 
 #french {
-  display: block;
+  display: inline;
 }
 
 #spelling {
-  display: block;
+  display: none;
 }
 
