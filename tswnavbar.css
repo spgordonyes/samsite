@@ -33,13 +33,23 @@
 
 #pizza {
   display: block;
+  clear: none;
+  text-overflow: clip;
 }
 
 #french {
-  display: inline;
+  display: block;
+  clear: none;
+  text-overflow: clip;
 }
 
 #spelling {
-  display: none;
+  display: block;
+  clear: none;
+  text-overflow: clip;
+}
+
+#fries {
+  position: relative;
 }
 
