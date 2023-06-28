@@ -21,7 +21,7 @@
         <div id="tswcontproper">
           <!-- start of content column: insert your content here -->
           <h1 style="text-align: center;">Samuel Gordon's incredible Summer WPI
-            launch program website!</h1>
+            launch programwebsite!</h1>
         </div>
         <div style="text-align: center;">
           <h3>SITE MAP:</h3>
@@ -31,8 +31,11 @@
               title="ABOUT ME">ABOUT ME</a></p>
           <p style="text-align: left;"><a href="https://users.wpi.edu/%7Espgordon/lunch.html"
               title="THESE ARE FACTS">LUNCH FACTS</a></p>
-          <p style="text-align: left;"><a href="mailto:https://users.wpi.edu/%7Espgordon/site_map.html"
+          <p style="text-align: left;"><a href="https://users.wpi.edu/%7Espgordon/site_map.html"
               title="THIS THIS ITS JUST THIS">SITE MAP</a></p>
+          <p style="text-align: left;"><a href="https://users.wpi.edu/%7Espgordon/sudoku.html"
+              title="THIS THIS ITS JUST THIS">SUDOKU PUZZLES<br>
+            </a></p>
           <p><br>
           </p>
         </div>
