@@ -1,13 +1,14 @@
 #tswcssbuttons {
-  width: 200px;
+  width: 400px;
   max-width: 100%;
   text-align: center;
 }
 
 #tswcssbuttons ul {
   margin: 0px;
-  padding: 0px;
+  padding: 15px 5px 15px;
   list-style: outside none none;
+  height: 300px;
 }
 
 #tswcssbuttons li {
@@ -32,33 +33,34 @@
 }
 
 #pizza {
-  display: block;
+  display: inline;
   clear: none;
   text-overflow: clip;
+  margin: 0%;
+  padding: 0px 0px 0px;
+  border-radius: 15px;
 }
 
 #french {
-  display: block;
+  display: inline;
   clear: none;
   text-overflow: clip;
+  margin: 0%;
+  padding: 0px 0px 0px;
+  border-radius: 15px;
 }
 
 #spelling {
-  display: block;
+  display: inline;
   clear: none;
   text-overflow: clip;
-}
-
-#fries {
-  position: relative;
+  margin: 0%;
+  padding: 0px 0px 0px;
+  border-radius: 15px;
 }
 
 #tswcontproper {
   font-weight: bold;
-
-}
-
-#tswcontent {
 
 }
 
