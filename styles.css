@@ -31,6 +31,17 @@ div#tswcontent {
   background-color: #33ffff;
 }
 
+.quiz-container{
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 10px 5px rgba(0, 0, 0, 0.4);
+  width: 300px;
+  overflow: hidden;
+  text-align: center;
+  padding: 0%;
+  margin: 0%;
+}
+
 @media only screen and ( max-width : 629px ) {
   div#tswsidecol {
     float: none;
@@ -40,6 +51,10 @@ div#tswcontent {
     float: none;
     width: 100%;
     display: block;
+  }
+  .quiz-container{
+    float: none;
+    width: 97%;
   }
 }
 
@@ -78,3 +93,11 @@ img {
   border-radius: 15px;
 }
 
+.alternative{
+  background-color: #33ffff;
+  border-radius: 30%;
+}
+div#google_translate_element {
+  background-color:#33ffff;
+  border-radius: 0px;
+}

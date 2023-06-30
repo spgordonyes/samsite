@@ -9,12 +9,14 @@
   padding: 15px 5px 15px;
   list-style: outside none none;
   height: 300px;
+  border-radius: 10px;
 }
 
 #tswcssbuttons li {
   margin: 0px;
   padding: 0px;
   display: block;
+  border-radius: 10px;
   list-style: outside none none;
   font-family: Arial, Helvetica, sans-serif;
 }

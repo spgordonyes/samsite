@@ -1,26 +1,26 @@
 let endless = true;
 let q1 = {
-  title: "what did sam have on day one?",
+  title: "What did sam have on day one?",
   alternatives: ["ice cream","a roll","garlic bread","tuna"],
   correctAnswer: 1
 };
 let q2 = {
-  title: "what did sam have on day two?",
+  title: "What did sam have on day two?",
   alternatives: ["a cookie","tater tots","waffle fries","meatballs"],
   correctAnswer: 3
 };
 let q3 = {
-  title: "what did sam have on day three?",
+  title: "What did sam have on day three?",
   alternatives: ["fries","ice cream","a roll","chicken tenders"],
   correctAnswer: 1
 };
 let q4 = {
-  title: "what did sam have on day four?",
+  title: "What did sam have on day four?",
   alternatives: ["a cookie","chicken tenders","pasta","garlic bread"],
   correctAnswer: 1
 };
 let q5 = {
-  title: "what food was the most common",
+  title: "What food was the most common?",
   alternatives: ["pizza","any type of fries","ice cream","any type of bread"],
   correctAnswer: 0
 };
