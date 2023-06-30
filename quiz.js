@@ -1,3 +1,4 @@
+let endless = true;
 let q1 = {
   title: "what did sam have on day one?",
   alternatives: ["ice cream","a roll","garlic bread","tuna"],
@@ -26,10 +27,23 @@ let q5 = {
 
 const questions = [q1,q2,q3,q4,q5]
 
-let qnum = 0;
-
+let qnum = -1;
+let dice = {
+  side:5,
+  roll:function(){
+    let randomnumber = Math.floor(Math.random() * this.side)
+    return randomnumber
+  }
+}
 function showQuestion() {
-  let q = questions[qnum];
+  let q = questions;
+  if (endless == false){    
+    q = questions[qnum];
+  }
+  if (endless == true){
+    qnum = dice.roll();
+    q = questions[qnum];
+  }
   let titleDiv = document.getElementById('title');
   titleDiv.textContent = q.title;
 
@@ -62,9 +76,23 @@ next.addEventListener('click', function (){
     nextQ(qnum);
 });
 
+let mode = document.getElementById("mode");
+
+mode.addEventListener('click', function (){
+  console.log('pressed mode!');
+  modef();
+});
 function nextQ() {
   qnum++;
   checker.textContent = ""
   showQuestion();
 }
-showQuestion();
+function modef() {
+if (endless == true){
+  endless = false;
+  mode.textContent = "endless mode: off"
+} else {
+  endless = true
+  mode.textContent = "endless mode: on"
+}
+}
