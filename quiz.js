@@ -1,21 +1,35 @@
-if(qnum == undefined){
-    qnum = 1
-}
-
-let questions0 = {
-    title: "what did sam have on day one?",
-    alternatives: ["ice cream","a roll","garlic bread","tuna"],
-    correctAnswer: 1
+let q1 = {
+  title: "what did sam have on day one?",
+  alternatives: ["ice cream","a roll","garlic bread","tuna"],
+  correctAnswer: 1
 };
-
 let q2 = {
-    title: t,
-    alternatives: ["ice cream",]
-    correctAnswer: 3
+  title: "what did sam have on day two?",
+  alternatives: ["a cookie","tater tots","waffle fries","meatballs"],
+  correctAnswer: 3
+};
+let q3 = {
+  title: "what did sam have on day three?",
+  alternatives: ["fries","ice cream","a roll","chicken tenders"],
+  correctAnswer: 1
+};
+let q4 = {
+  title: "what did sam have on day four?",
+  alternatives: ["a cookie","chicken tenders","pasta","garlic bread"],
+  correctAnswer: 1
+};
+let q5 = {
+  title: "what food was the most common",
+  alternatives: ["pizza","any type of fries","ice cream","any type of bread"],
+  correctAnswer: 0
 };
 
+const questions = [q1,q2,q3,q4,q5]
 
-function showQuestion(q) {
+let qnum = 0;
+
+function showQuestion() {
+  let q = questions[qnum];
   let titleDiv = document.getElementById('title');
   titleDiv.textContent = q.title;
 
@@ -37,11 +51,9 @@ function showQuestion(q) {
             document.getElementById("checker").style.color = "red";
             console.log(qnum);
           } 
-        });
+        }, {once: true});
     });
 }
-
-
 
 let next = document.getElementById("next");
 
@@ -51,10 +63,8 @@ next.addEventListener('click', function (){
 });
 
 function nextQ() {
-    questions = [q1, q2, q3]
-    for {
-    showQuestion(questions[qnum-1]);
-    }
-    qnum++;
-    checker.textContent = ""
+  qnum++;
+  checker.textContent = ""
+  showQuestion();
 }
+showQuestion();
