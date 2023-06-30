@@ -51,7 +51,6 @@ function showQuestion() {
   console.log(alts);
   alts.forEach(function(element, index){
     element.textContent = q.alternatives[index];
-
       element.addEventListener('click', function(){
           if (q.correctAnswer == index) {
             console.log('Correct Answer!');
